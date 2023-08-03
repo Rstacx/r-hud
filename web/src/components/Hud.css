@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+
+body {
+  color: white;
+  font-family: Rubik !important;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.ui {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.4vh;
+  background-color: transparent;
+}
+
+.health {
+  width: fit-content;
+  height: fit-content;
+}
+
+.wid {
+  width: 5vw !important;
+}
+
+.centerig {
+  position: absolute;
+  top: 95.5%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+  width: 20vw;
+  text-align: center;
+}
+
+.id {
+  position: absolute;
+  top: 98%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+}
+
+.misc {
+  width: 7.8vw;
+  text-align: center;
+}
